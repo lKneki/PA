@@ -1,0 +1,35 @@
+audio-no: (Noticias?)
+datalist-si: blog.html para que el usuario nos indique entre que rango de edad se encuentra	 
+
+details-si: login.html para darle interactividad 
+
+embed-no:(Consultas Internas?)(Instalaciones?)
+
+figcaption-si:index.html para poder ver el nombre del hospital de la pagina
+figure-si:index.html para poder poder usar el figcaption anterior
+footer-si:index.html al ser la pagina principal veia conveniente que llevase
+header-si: todas las clases para usar el logo de la junta de andalucia
+
+hgroup-no
+keygen-no
+
+mark-si: index.html para marcar el titulo Indice y consultas.html para remarcar la formula
+math-si: consultas.html para que los usuarios puedan calcular mediante una ecuacion, su presion arterial
+meter-si:habitaciones.html para expresar la ocupacion actual del hospital
+nav-si: index.html (entre otras) para usar una lista desordenada en el body de la clase
+output-si: blog.html para que el usuario pueda dar una valoracion a la pagina web
+
+progress-no:(Utilizarlo en una de las noticias sobre una investigacion y su progreso actual?)
+rp-no
+rt-no
+ruby-no
+
+section-si:instalaciones.html en el footer para acompañar una imagen del personal en las instalaciones
+
+source-no
+summary-no
+svg-no
+time-no:(usarlo junto a una foto de una cirujia para determinar el tiempo de la operacion)
+track-no
+video-no
+wbr-no

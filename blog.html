@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <header>
+        <img src="./imagenes/junta.jpg" height="100" width="300">
+        <a href="./index.html"><h2>Atras</h2></a>    
+    </header>
+    <body>
+        <div align="center">
+            <h2>
+                <label for="edades">Indique su rango de edad:</label>
+                <input list="edad" id="edades" name="edades" />
+                <datalist id="edad">
+                    <option value="Entre 1 y 18"></option>  
+                    <option value="Entre 18 y 64"></option>
+                    <option value="Mas de 64"></option>
+                </datalist>
+                </br>
+                </br>
+                Que valoracion le darias a la pagina web</h2>
+            <form oninput="result.value=parseInt(b.value)">
+                <h2> <input type="range" id="b" name="b" value="0" max="10" /> =                
+                    <output name="result" for="b">0</output>
+                </h2>
+            </form>  
+            <p>-----------------------------------------------------------------------------------------------------------------------------------------------</p>
+        </div>
+        
+        </br>
+        <div align="center">
+            <h2>Noticias relacionadas con nuestro hospital</h2>
+            <h3>En esta seccion de la pagina, mostramos noticias relevantes que surgen tanto de nuestro hospital como de actualidad en el mundo de la medicina</h3>   
+            <a href="./noticia1.html"><h3>Investigacion contra el cancer de mma</h3></a> 
+            <a href="./noticia2.html"><h3>Premio a mejores avances del 2022</h3></a> 
+            <a href="./noticia3.html"><h3>Operacion de corazon exitosa tras 22 horas de intervencion</h3></a> 
+
+        </div>  
+    </body>
+
+</html>
